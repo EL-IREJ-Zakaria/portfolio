@@ -30,6 +30,32 @@
       return;
     }
 
+    for (const el of elements) {
+      const override = el.getAttribute("data-reveal-delay");
+      if (!override) continue;
+      const delayMs = Number(override);
+      if (Number.isFinite(delayMs) && delayMs >= 0) {
+        el.style.setProperty("--reveal-delay", `${delayMs}ms`);
+      }
+    }
+
+    // Auto-stagger reveals per section for a modern, polished feel.
+    // You can override per element via: data-reveal-delay="120"
+    const bySection = new Map();
+    for (const el of elements) {
+      if (el.hasAttribute("data-reveal-delay")) continue;
+      const section = el.closest("header, section") || document.body;
+      const list = bySection.get(section) || [];
+      list.push(el);
+      bySection.set(section, list);
+    }
+    for (const [, list] of bySection) {
+      list.forEach((el, index) => {
+        const delayMs = Math.min((index % 6) * 60, 240);
+        el.style.setProperty("--reveal-delay", `${delayMs}ms`);
+      });
+    }
+
     const observer = new IntersectionObserver(
       (entries) => {
         for (const entry of entries) {
@@ -57,6 +83,11 @@
       e.preventDefault();
       target.scrollIntoView({ behavior: "smooth", block: "start" });
 
+      // Keep URL hash in sync without reloading the page.
+      if (window.location.hash !== id) {
+        history.pushState(null, "", id);
+      }
+
       // Collapse navbar on mobile after click
       const navbar = document.querySelector(".navbar-collapse");
       if (navbar?.classList.contains("show")) {
@@ -64,6 +95,71 @@
         bsCollapse?.hide();
       }
     });
+
+    // Support browser back/forward navigation for hash-based sections.
+    window.addEventListener("popstate", () => {
+      const hash = window.location.hash;
+      if (!hash || hash === "#") return;
+      const target = document.querySelector(hash);
+      if (!target) return;
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  };
+
+  const openExternal = (url) => {
+    if (!url) return;
+    const a = document.createElement("a");
+    a.href = url;
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+  };
+
+  const initProjectCards = () => {
+    const cards = Array.from(document.querySelectorAll(".project-card[data-demo]"));
+    if (!cards.length) return;
+
+    for (const card of cards) {
+      const demoUrl = card.getAttribute("data-demo")?.trim();
+      const repoUrl = card.getAttribute("data-repo")?.trim();
+
+      // Ensure buttons always point to the same URLs as the card.
+      const demoLink = card.querySelector("a.project-demo");
+      if (demoLink && demoUrl) {
+        demoLink.href = demoUrl;
+        demoLink.target = "_blank";
+        demoLink.rel = "noopener noreferrer";
+      }
+      const repoLink = card.querySelector("a.project-repo");
+      if (repoLink && repoUrl) {
+        repoLink.href = repoUrl;
+        repoLink.target = "_blank";
+        repoLink.rel = "noopener noreferrer";
+      }
+
+      // Make the full card clickable (open live demo) for a more app-like UX.
+      if (demoUrl) {
+        card.classList.add("is-clickable");
+        card.tabIndex = 0;
+        card.setAttribute("role", "link");
+        const title = card.querySelector("h3")?.textContent?.trim();
+        if (title) card.setAttribute("aria-label", `Open ${title} project`);
+
+        card.addEventListener("click", (e) => {
+          // Don't hijack clicks on interactive elements inside the card.
+          if (e.target.closest("a, button, input, textarea, select, label")) return;
+          openExternal(demoUrl);
+        });
+
+        card.addEventListener("keydown", (e) => {
+          if (e.key !== "Enter" && e.key !== " ") return;
+          e.preventDefault();
+          openExternal(demoUrl);
+        });
+      }
+    }
   };
 
   const initActiveNav = () => {
@@ -155,6 +251,15 @@
     btn.addEventListener("click", () => {
       const current = html.getAttribute("data-theme") === "light" ? "light" : "dark";
       setTheme(current === "dark" ? "light" : "dark");
+
+      const icon = btn.querySelector("i");
+      if (icon) {
+        icon.classList.remove("theme-spin");
+        // Force reflow so the animation can restart on repeated clicks.
+        void icon.offsetWidth;
+        icon.classList.add("theme-spin");
+        window.setTimeout(() => icon.classList.remove("theme-spin"), 420);
+      }
     });
   };
 
@@ -163,8 +268,8 @@
   initSmoothScroll();
   initReveal();
   initActiveNav();
+  initProjectCards();
   initContactForm();
   initYear();
   initGSAPHero();
 })();
-

@@ -72,28 +72,40 @@
         <div class="row align-items-center gy-4">
           <div class="col-lg-7">
             <p class="hero-eyebrow text-accent mb-2 reveal">Hi, I’m</p>
-            <h1 class="display-5 hero-title mb-3 reveal">Zakaria EL-IREJ</h1>
+            <h1 class="display-5 hero-title mb-3 reveal">Zakaria EL IREJ</h1>
             <p class="hero-subtitle h5 mb-3 text-muted reveal">Full Stack Developer / Mobile Developer</p>
             <p class="hero-desc lead mb-4 reveal">
               I build clean, responsive web apps and reliable backends — and ship mobile experiences with Kotlin & Flutter.
             </p>
 
-            <div class="d-flex flex-wrap gap-2 reveal">
-              <a class="btn btn-accent" href="#projects">
-                <i class="bi bi-grid-1x2-fill me-2" aria-hidden="true"></i>
-                View Projects
-              </a>
-              <a class="btn btn-outline-lightish" href="assets/cv/Zakaria-EL-IREJ-CV.pdf" download>
+             <div class="d-flex flex-wrap gap-2 reveal">
+               <a class="btn btn-accent" href="#contact">
+                 <i class="bi bi-chat-dots-fill me-2" aria-hidden="true"></i>
+                 Hire Me
+               </a>
+               <a
+                 class="btn btn-outline-lightish"
+                 href="assets/cv/Zakaria-EL-IREJ-CV.pdf"
+                 target="_blank"
+                rel="noopener noreferrer"
+                download
+              >
                 <i class="bi bi-download me-2" aria-hidden="true"></i>
                 Download CV
               </a>
-            </div>
+             </div>
 
             <div class="mt-4 d-flex gap-3 align-items-center reveal" aria-label="Social links">
-              <a class="icon-link" href="https://github.com/EL-IREJ-Zakaria" target="_blank" rel="noreferrer" aria-label="GitHub">
+              <a class="icon-link" href="https://github.com/EL-IREJ-Zakaria" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                 <i class="bi bi-github" aria-hidden="true"></i>
               </a>
-              <a class="icon-link" href="https://www.linkedin.com/in/zakaria-el-irej-554b5231b" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+              <a
+                class="icon-link"
+                href="https://www.linkedin.com/in/zakaria-el-irej-554b5231b"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+              >
                 <i class="bi bi-linkedin" aria-hidden="true"></i>
               </a>
             </div>
@@ -102,12 +114,13 @@
           <div class="col-lg-5">
             <div class="hero-card reveal">
               <div class="hero-card-top">
-                <img
+                 <img
                   class="hero-avatar"
-                  src="assets/img/avatar-placeholder.svg"
-                  alt="Portrait placeholder"
+                  src="assets/img/profile.jpeg"
+                  alt="Zakaria EL-IREJ portrait"
                   loading="lazy"
-                />
+                  decoding="async"
+                 />
                 <div>
                   <p class="mb-1 fw-semibold">Available for opportunities</p>
                   <p class="mb-0 text-muted small">Open to full-time, internship, and freelance projects.</p>
@@ -205,31 +218,36 @@
             <p class="section-kicker text-muted reveal">Case-study style highlights: what I built, why it matters, and the tech behind it.</p>
           </div>
 
+          <!-- Tip: for each project card, set `data-demo` to the LinkedIn post URL of that project. -->
           <div class="row g-4">
             <div class="col-12">
-              <article class="project-card reveal">
+              <article
+                class="project-card reveal"
+                data-demo="https://www.linkedin.com/posts/zakaria-el-irej-554b5231b_je-suis-ravi-de-partager-le-d%C3%A9veloppement-ugcPost-7413586323258691584-aTBf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFEmWZABLgkKYe2NsQxqlWPi0Mq63JUKSKs"
+                data-repo="https://github.com/EL-IREJ-Zakaria?tab=repositories"
+              >
                 <div class="project-media">
-                  <img src="assets/img/project-placeholder.svg" alt="Coffee Shop Order System preview" loading="lazy" />
+                  <img src="assets/img/project-placeholder.svg" alt="Système de commande de café aperçu" loading="lazy" />
                 </div>
                 <div class="project-body">
                   <div class="d-flex align-items-start justify-content-between gap-3">
                     <div>
-                      <h3 class="h5 mb-1">Coffee Shop Order System</h3>
-                      <p class="text-muted mb-3">A fast, simple ordering workflow for staff with clear tickets, totals, and status tracking.</p>
+                      <h3 class="h5 mb-1">Système de commande de café</h3>
+                      <p class="text-muted mb-3">Un processus de commande rapide et simple pour le personnel, avec des tickets clairs, des totaux et un suivi de statut.</p>
                     </div>
-                    <span class="badge badge-soft">Web App</span>
+                    <span class="badge badge-soft">Application Web</span>
                   </div>
 
                   <div class="row g-3">
                     <div class="col-md-7">
-                      <p class="label mb-1">What it solves</p>
+                      <p class="label mb-1">Ce que cela résout</p>
                       <p class="text-muted mb-0">
-                        Reduces ordering errors and speeds up service with a structured flow (create order → update status → track sales).
+                        Réduit les erreurs de commande et accélère le service grâce à un flux structuré (créer une commande → mettre à jour le statut → suivre les ventes).
                       </p>
                     </div>
                     <div class="col-md-5">
-                      <p class="label mb-1">My role</p>
-                      <p class="text-muted mb-0">Full stack — UI, backend logic, and database design.</p>
+                      <p class="label mb-1">Mon rôle</p>
+                      <p class="text-muted mb-0">Développement full stack — conception d’interface utilisateur, logique backend et base de données.</p>
                     </div>
                   </div>
 
@@ -239,19 +257,35 @@
                   </div>
 
                   <div class="mt-3 d-flex flex-wrap gap-2">
-                    <a class="btn btn-sm btn-accent" href="#" aria-disabled="true">Live Demo</a>
-                    <a class="btn btn-sm btn-outline-accent" href="#" aria-disabled="true">
+                    <a
+                      class="btn btn-sm btn-accent project-demo"
+                      href="https://www.linkedin.com/posts/zakaria-el-irej-554b5231b_je-suis-ravi-de-partager-le-d%C3%A9veloppement-ugcPost-7413586323258691584-aTBf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFEmWZABLgkKYe2NsQxqlWPi0Mq63JUKSKs"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="bi bi-linkedin me-1" aria-hidden="true"></i>
+                      Publication LinkedIn
+                    </a>
+                    <a
+                      class="btn btn-sm btn-outline-accent project-repo"
+                      href="https://github.com/EL-IREJ-Zakaria?tab=repositories"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <i class="bi bi-github me-1" aria-hidden="true"></i>
                       GitHub
                     </a>
-                    <span class="text-muted small align-self-center">Add links in <code>index.html</code>.</span>
                   </div>
                 </div>
               </article>
             </div>
 
             <div class="col-12">
-              <article class="project-card reveal">
+              <article
+                class="project-card reveal"
+                data-demo="https://www.linkedin.com/in/zakaria-el-irej-554b5231b/"
+                data-repo="https://github.com/EL-IREJ-Zakaria?tab=repositories"
+              >
                 <div class="project-media">
                   <img src="assets/img/project-placeholder.svg" alt="Kids Learning App preview" loading="lazy" />
                 </div>
@@ -284,8 +318,21 @@
                   </div>
 
                   <div class="mt-3 d-flex flex-wrap gap-2">
-                    <a class="btn btn-sm btn-accent" href="#" aria-disabled="true">Live Demo</a>
-                    <a class="btn btn-sm btn-outline-accent" href="#" aria-disabled="true">
+                    <a
+                      class="btn btn-sm btn-accent project-demo"
+                      href="https://www.linkedin.com/in/zakaria-el-irej-554b5231b/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="bi bi-linkedin me-1" aria-hidden="true"></i>
+                      LinkedIn Post
+                    </a>
+                    <a
+                      class="btn btn-sm btn-outline-accent project-repo"
+                      href="https://github.com/EL-IREJ-Zakaria?tab=repositories"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <i class="bi bi-github me-1" aria-hidden="true"></i>
                       GitHub
                     </a>
@@ -295,7 +342,11 @@
             </div>
 
             <div class="col-12">
-              <article class="project-card reveal">
+              <article
+                class="project-card reveal"
+                data-demo="https://www.linkedin.com/in/zakaria-el-irej-554b5231b/"
+                data-repo="https://github.com/EL-IREJ-Zakaria?tab=repositories"
+              >
                 <div class="project-media">
                   <img src="assets/img/project-placeholder.svg" alt="EventPay preview" loading="lazy" />
                 </div>
@@ -328,8 +379,21 @@
                   </div>
 
                   <div class="mt-3 d-flex flex-wrap gap-2">
-                    <a class="btn btn-sm btn-accent" href="#" aria-disabled="true">Live Demo</a>
-                    <a class="btn btn-sm btn-outline-accent" href="#" aria-disabled="true">
+                    <a
+                      class="btn btn-sm btn-accent project-demo"
+                      href="https://www.linkedin.com/in/zakaria-el-irej-554b5231b/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="bi bi-linkedin me-1" aria-hidden="true"></i>
+                      LinkedIn Post
+                    </a>
+                    <a
+                      class="btn btn-sm btn-outline-accent project-repo"
+                      href="https://github.com/EL-IREJ-Zakaria?tab=repositories"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <i class="bi bi-github me-1" aria-hidden="true"></i>
                       GitHub
                     </a>
@@ -339,7 +403,11 @@
             </div>
 
             <div class="col-12">
-              <article class="project-card reveal">
+              <article
+                class="project-card reveal"
+                data-demo="https://www.linkedin.com/in/zakaria-el-irej-554b5231b/"
+                data-repo="https://github.com/EL-IREJ-Zakaria?tab=repositories"
+              >
                 <div class="project-media">
                   <img src="assets/img/project-placeholder.svg" alt="Sonic Gallery preview" loading="lazy" />
                 </div>
@@ -372,8 +440,21 @@
                   </div>
 
                   <div class="mt-3 d-flex flex-wrap gap-2">
-                    <a class="btn btn-sm btn-accent" href="#" aria-disabled="true">Live Demo</a>
-                    <a class="btn btn-sm btn-outline-accent" href="#" aria-disabled="true">
+                    <a
+                      class="btn btn-sm btn-accent project-demo"
+                      href="https://www.linkedin.com/in/zakaria-el-irej-554b5231b/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="bi bi-linkedin me-1" aria-hidden="true"></i>
+                      LinkedIn Post
+                    </a>
+                    <a
+                      class="btn btn-sm btn-outline-accent project-repo"
+                      href="https://github.com/EL-IREJ-Zakaria?tab=repositories"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <i class="bi bi-github me-1" aria-hidden="true"></i>
                       GitHub
                     </a>
@@ -470,7 +551,6 @@
                   <span class="chip">VS Code</span>
                   <span class="chip">Figma</span>
                 </div>
-                <p class="text-muted small mt-3 mb-0">Update proficiency levels any time in <code>index.html</code>.</p>
               </div>
             </div>
           </div>
@@ -596,10 +676,15 @@
                 </ul>
 
                 <div class="d-flex gap-2 flex-wrap">
-                  <a class="btn btn-outline-accent" href="https://github.com/your-username" target="_blank" rel="noreferrer">
+                  <a class="btn btn-outline-accent" href="https://github.com/EL-IREJ-Zakaria" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-github me-2" aria-hidden="true"></i>GitHub
                   </a>
-                  <a class="btn btn-outline-accent" href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noreferrer">
+                  <a
+                    class="btn btn-outline-accent"
+                    href="https://www.linkedin.com/in/zakaria-el-irej-554b5231b"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i class="bi bi-linkedin me-2" aria-hidden="true"></i>LinkedIn
                   </a>
                 </div>
@@ -619,10 +704,16 @@
       <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-2">
         <p class="mb-0 small text-muted">© <span id="year"></span> Zakaria EL-IREJ. All rights reserved.</p>
         <div class="d-flex gap-3">
-          <a class="icon-link" href="https://github.com/your-username" target="_blank" rel="noreferrer" aria-label="GitHub">
+          <a class="icon-link" href="https://github.com/EL-IREJ-Zakaria" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
             <i class="bi bi-github" aria-hidden="true"></i>
           </a>
-          <a class="icon-link" href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+          <a
+            class="icon-link"
+            href="https://www.linkedin.com/in/zakaria-el-irej-554b5231b"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
             <i class="bi bi-linkedin" aria-hidden="true"></i>
           </a>
         </div>
@@ -635,4 +726,3 @@
     <script src="script.js"></script>
   </body>
 </html>
-

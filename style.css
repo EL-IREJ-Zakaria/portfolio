@@ -84,6 +84,8 @@ html[data-theme="light"] .glass-nav {
 .navbar .nav-link {
   color: var(--muted);
   font-weight: 500;
+  position: relative;
+  transition: color 180ms ease;
 }
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
@@ -91,6 +93,25 @@ html[data-theme="light"] .glass-nav {
 }
 .navbar .nav-link.active {
   color: var(--accent);
+}
+.navbar .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  bottom: 4px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  border-radius: 999px;
+  transform: scaleX(0);
+  transform-origin: left;
+  opacity: 0.9;
+  transition: transform 220ms ease;
+}
+.navbar .nav-link:hover::after,
+.navbar .nav-link:focus::after,
+.navbar .nav-link.active::after {
+  transform: scaleX(1);
 }
 
 .navbar-brand {
@@ -118,6 +139,18 @@ html[data-theme="light"] .navbar-toggler-icon {
   margin-right: 10px;
   background: var(--accent);
   box-shadow: 0 0 0 6px rgba(100, 255, 218, 0.12);
+}
+
+@keyframes themeSpin {
+  from {
+    transform: rotate(0deg) scale(1);
+  }
+  to {
+    transform: rotate(180deg) scale(1.05);
+  }
+}
+.theme-spin {
+  animation: themeSpin 420ms cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 /* Sections */
@@ -185,6 +218,8 @@ html[data-theme="light"] .section-alt {
   border: 1px solid var(--border);
   background: var(--bg-2);
   flex: 0 0 auto;
+  object-fit: cover;
+  object-position: center;
 }
 
 .divider-soft {
@@ -201,6 +236,12 @@ html[data-theme="light"] .divider-soft {
   background: var(--card);
   padding: 18px;
   box-shadow: 0 12px 34px rgba(0, 0, 0, 0.12);
+  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+}
+.panel:hover {
+  transform: translateY(-2px);
+  border-color: rgba(100, 255, 218, 0.24);
+  box-shadow: 0 18px 46px rgba(0, 0, 0, 0.18);
 }
 .stat-card {
   display: flex;
@@ -210,6 +251,12 @@ html[data-theme="light"] .divider-soft {
   border: 1px solid var(--border);
   background: var(--card);
   padding: 14px 16px;
+  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+}
+.stat-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(100, 255, 218, 0.24);
+  box-shadow: 0 18px 46px rgba(0, 0, 0, 0.16);
 }
 .stat-icon {
   width: 40px;
@@ -258,6 +305,19 @@ html[data-theme="light"] .btn-outline-lightish {
   --bs-btn-hover-border-color: rgba(10, 25, 47, 0.28);
 }
 
+/* Modern micro-interactions */
+.btn {
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.18);
+}
+.btn:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
 .text-accent {
   color: var(--accent) !important;
 }
@@ -289,6 +349,19 @@ html[data-theme="light"] .btn-outline-lightish {
   background: var(--card);
   overflow: hidden;
   box-shadow: var(--shadow);
+}
+.project-card.is-clickable {
+  cursor: pointer;
+  transition: transform 180ms ease, border-color 180ms ease;
+}
+.project-card.is-clickable:hover {
+  transform: translateY(-2px);
+  border-color: rgba(100, 255, 218, 0.35);
+}
+.project-card.is-clickable:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(100, 255, 218, 0.12), var(--shadow);
+  border-color: rgba(100, 255, 218, 0.45);
 }
 .project-media {
   min-height: 240px;
@@ -334,6 +407,12 @@ html[data-theme="light"] .project-media {
   background: rgba(255, 255, 255, 0.04);
   color: var(--text);
   font-size: 0.85rem;
+  transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+}
+.chip:hover {
+  transform: translateY(-1px);
+  border-color: rgba(100, 255, 218, 0.28);
+  background: rgba(100, 255, 218, 0.06);
 }
 html[data-theme="light"] .chip {
   background: rgba(10, 25, 47, 0.03);
@@ -430,12 +509,16 @@ html[data-theme="light"] .footer {
 /* Reveal on scroll */
 .reveal {
   opacity: 0;
-  transform: translateY(14px);
-  transition: opacity 520ms ease, transform 520ms ease;
+  transform: translate3d(0, 14px, 0) scale(0.985);
+  filter: blur(5px);
+  will-change: transform, opacity, filter;
+  transition: opacity 560ms ease, transform 560ms ease, filter 560ms ease;
+  transition-delay: var(--reveal-delay, 0ms);
 }
 .reveal.is-visible {
   opacity: 1;
-  transform: translateY(0);
+  transform: translate3d(0, 0, 0) scale(1);
+  filter: blur(0);
 }
 
 /* Responsive */
@@ -458,9 +541,18 @@ html[data-theme="light"] .footer {
     transition: none;
     transform: none;
     opacity: 1;
+    filter: none;
+  }
+  .theme-spin {
+    animation: none !important;
   }
   .icon-link,
-  .btn {
+  .btn,
+  .project-card.is-clickable,
+  .panel,
+  .stat-card,
+  .chip,
+  .navbar .nav-link::after {
     transition: none !important;
   }
 }

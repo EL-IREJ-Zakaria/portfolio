@@ -1,0 +1,639 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Zakaria EL-IREJ — Full Stack & Mobile Developer. Clean, recruiter-focused portfolio showcasing projects, skills, and experience." />
+    <meta name="theme-color" content="#0A192F" />
+
+    <title>Zakaria EL-IREJ | Web & Mobile Developer</title>
+
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap + Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#home">Skip to content</a>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top glass-nav" aria-label="Primary">
+      <div class="container">
+        <a class="navbar-brand fw-semibold" href="#home">
+          <span class="brand-mark" aria-hidden="true"></span>
+          Zakaria EL-IREJ
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample"
+          aria-controls="navbarsExample"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center gap-lg-2">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item ms-lg-2">
+              <button id="themeToggle" class="btn btn-sm btn-outline-accent" type="button" aria-label="Toggle theme">
+                <i class="bi bi-moon-stars" aria-hidden="true"></i>
+                <span class="d-none d-sm-inline">Theme</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <header id="home" class="section hero-section">
+      <div class="container">
+        <div class="row align-items-center gy-4">
+          <div class="col-lg-7">
+            <p class="hero-eyebrow text-accent mb-2 reveal">Hi, I’m</p>
+            <h1 class="display-5 hero-title mb-3 reveal">Zakaria EL-IREJ</h1>
+            <p class="hero-subtitle h5 mb-3 text-muted reveal">Full Stack Developer / Mobile Developer</p>
+            <p class="hero-desc lead mb-4 reveal">
+              I build clean, responsive web apps and reliable backends — and ship mobile experiences with Kotlin & Flutter.
+            </p>
+
+            <div class="d-flex flex-wrap gap-2 reveal">
+              <a class="btn btn-accent" href="#projects">
+                <i class="bi bi-grid-1x2-fill me-2" aria-hidden="true"></i>
+                View Projects
+              </a>
+              <a class="btn btn-outline-lightish" href="assets/cv/Zakaria-EL-IREJ-CV.pdf" download>
+                <i class="bi bi-download me-2" aria-hidden="true"></i>
+                Download CV
+              </a>
+            </div>
+
+            <div class="mt-4 d-flex gap-3 align-items-center reveal" aria-label="Social links">
+              <a class="icon-link" href="https://github.com/your-username" target="_blank" rel="noreferrer" aria-label="GitHub">
+                <i class="bi bi-github" aria-hidden="true"></i>
+              </a>
+              <a class="icon-link" href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+                <i class="bi bi-linkedin" aria-hidden="true"></i>
+              </a>
+              <span class="text-muted small">Update these links in <code>index.html</code>.</span>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="hero-card reveal">
+              <div class="hero-card-top">
+                <img
+                  class="hero-avatar"
+                  src="assets/img/avatar-placeholder.svg"
+                  alt="Portrait placeholder"
+                  loading="lazy"
+                />
+                <div>
+                  <p class="mb-1 fw-semibold">Available for opportunities</p>
+                  <p class="mb-0 text-muted small">Open to full-time, internship, and freelance projects.</p>
+                </div>
+              </div>
+
+              <hr class="divider-soft my-3" />
+
+              <ul class="list-unstyled mb-0 small">
+                <li class="d-flex gap-2 align-items-start mb-2">
+                  <i class="bi bi-check2-circle text-accent mt-1" aria-hidden="true"></i>
+                  <span>Strong fundamentals: HTML/CSS/JS, Bootstrap 5, clean UI implementation.</span>
+                </li>
+                <li class="d-flex gap-2 align-items-start mb-2">
+                  <i class="bi bi-check2-circle text-accent mt-1" aria-hidden="true"></i>
+                  <span>Backend: PHP + MySQL, REST APIs, authentication, CRUD workflows.</span>
+                </li>
+                <li class="d-flex gap-2 align-items-start">
+                  <i class="bi bi-check2-circle text-accent mt-1" aria-hidden="true"></i>
+                  <span>Mobile: Kotlin & Flutter, Firebase integrations, modern app patterns.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- About -->
+      <section id="about" class="section section-pad">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title reveal">About</h2>
+            <p class="section-kicker text-muted reveal">
+              A focused developer mindset: ship, iterate, and keep code maintainable.
+            </p>
+          </div>
+
+          <div class="row g-4 align-items-stretch">
+            <div class="col-lg-7">
+              <div class="panel reveal">
+                <h3 class="h5 mb-3">Professional Summary</h3>
+                <p class="mb-3 text-muted">
+                  I’m a developer who enjoys turning requirements into polished products. I care about clean UI,
+                  good performance, and backends that are simple to maintain.
+                </p>
+                <p class="mb-0 text-muted">
+                  My current focus is building modern web apps with vanilla JavaScript + Bootstrap, PHP/MySQL backends,
+                  and mobile apps using Kotlin and Flutter.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-5">
+              <div class="row g-3">
+                <div class="col-12">
+                  <div class="stat-card reveal">
+                    <div class="stat-icon"><i class="bi bi-briefcase" aria-hidden="true"></i></div>
+                    <div>
+                      <p class="mb-1 fw-semibold">Experience</p>
+                      <p class="mb-0 text-muted small">Academic + project-based experience. Add internship details below.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="stat-card reveal">
+                    <div class="stat-icon"><i class="bi bi-stack" aria-hidden="true"></i></div>
+                    <div>
+                      <p class="mb-1 fw-semibold">Technologies</p>
+                      <p class="mb-0 text-muted small">HTML, CSS, JS, Bootstrap, PHP, MySQL, Kotlin, Flutter.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="stat-card reveal">
+                    <div class="stat-icon"><i class="bi bi-bullseye" aria-hidden="true"></i></div>
+                    <div>
+                      <p class="mb-1 fw-semibold">Goals</p>
+                      <p class="mb-0 text-muted small">Deliver production-quality work and collaborate in strong teams.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section section-pad section-alt">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title reveal">Projects</h2>
+            <p class="section-kicker text-muted reveal">Case-study style highlights: what I built, why it matters, and the tech behind it.</p>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-12">
+              <article class="project-card reveal">
+                <div class="project-media">
+                  <img src="assets/img/project-placeholder.svg" alt="Coffee Shop Order System preview" loading="lazy" />
+                </div>
+                <div class="project-body">
+                  <div class="d-flex align-items-start justify-content-between gap-3">
+                    <div>
+                      <h3 class="h5 mb-1">Coffee Shop Order System</h3>
+                      <p class="text-muted mb-3">A fast, simple ordering workflow for staff with clear tickets, totals, and status tracking.</p>
+                    </div>
+                    <span class="badge badge-soft">Web App</span>
+                  </div>
+
+                  <div class="row g-3">
+                    <div class="col-md-7">
+                      <p class="label mb-1">What it solves</p>
+                      <p class="text-muted mb-0">
+                        Reduces ordering errors and speeds up service with a structured flow (create order → update status → track sales).
+                      </p>
+                    </div>
+                    <div class="col-md-5">
+                      <p class="label mb-1">My role</p>
+                      <p class="text-muted mb-0">Full stack — UI, backend logic, and database design.</p>
+                    </div>
+                  </div>
+
+                  <div class="mt-3 d-flex flex-wrap gap-2">
+                    <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span>
+                    <span class="chip">Bootstrap</span><span class="chip">PHP</span><span class="chip">MySQL</span>
+                  </div>
+
+                  <div class="mt-3 d-flex flex-wrap gap-2">
+                    <a class="btn btn-sm btn-accent" href="#" aria-disabled="true">Live Demo</a>
+                    <a class="btn btn-sm btn-outline-accent" href="#" aria-disabled="true">
+                      <i class="bi bi-github me-1" aria-hidden="true"></i>
+                      GitHub
+                    </a>
+                    <span class="text-muted small align-self-center">Add links in <code>index.html</code>.</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12">
+              <article class="project-card reveal">
+                <div class="project-media">
+                  <img src="assets/img/project-placeholder.svg" alt="Kids Learning App preview" loading="lazy" />
+                </div>
+                <div class="project-body">
+                  <div class="d-flex align-items-start justify-content-between gap-3">
+                    <div>
+                      <h3 class="h5 mb-1">Kids Learning App</h3>
+                      <p class="text-muted mb-3">A playful learning experience with modules, quizzes, and progress tracking.</p>
+                    </div>
+                    <span class="badge badge-soft">Mobile</span>
+                  </div>
+
+                  <div class="row g-3">
+                    <div class="col-md-7">
+                      <p class="label mb-1">Highlights</p>
+                      <ul class="text-muted mb-0 ps-3">
+                        <li>Simple navigation with clear learning modules</li>
+                        <li>Offline-friendly content patterns</li>
+                        <li>Progress tracking for motivation</li>
+                      </ul>
+                    </div>
+                    <div class="col-md-5">
+                      <p class="label mb-1">My role</p>
+                      <p class="text-muted mb-0">Mobile developer — UI screens, logic, and data handling.</p>
+                    </div>
+                  </div>
+
+                  <div class="mt-3 d-flex flex-wrap gap-2">
+                    <span class="chip">Kotlin</span><span class="chip">Android</span><span class="chip">Firebase</span>
+                  </div>
+
+                  <div class="mt-3 d-flex flex-wrap gap-2">
+                    <a class="btn btn-sm btn-accent" href="#" aria-disabled="true">Live Demo</a>
+                    <a class="btn btn-sm btn-outline-accent" href="#" aria-disabled="true">
+                      <i class="bi bi-github me-1" aria-hidden="true"></i>
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12">
+              <article class="project-card reveal">
+                <div class="project-media">
+                  <img src="assets/img/project-placeholder.svg" alt="EventPay preview" loading="lazy" />
+                </div>
+                <div class="project-body">
+                  <div class="d-flex align-items-start justify-content-between gap-3">
+                    <div>
+                      <h3 class="h5 mb-1">EventPay</h3>
+                      <p class="text-muted mb-3">An event payment flow concept: simple checkout, confirmation, and transaction history.</p>
+                    </div>
+                    <span class="badge badge-soft">Web / Mobile</span>
+                  </div>
+
+                  <div class="row g-3">
+                    <div class="col-md-7">
+                      <p class="label mb-1">Core features</p>
+                      <ul class="text-muted mb-0 ps-3">
+                        <li>Event listing and detail pages</li>
+                        <li>Secure payment-ready UI flow (integration-ready)</li>
+                        <li>Receipt / history screens</li>
+                      </ul>
+                    </div>
+                    <div class="col-md-5">
+                      <p class="label mb-1">My role</p>
+                      <p class="text-muted mb-0">UI + business logic implementation.</p>
+                    </div>
+                  </div>
+
+                  <div class="mt-3 d-flex flex-wrap gap-2">
+                    <span class="chip">Flutter</span><span class="chip">Firebase</span><span class="chip">REST</span>
+                  </div>
+
+                  <div class="mt-3 d-flex flex-wrap gap-2">
+                    <a class="btn btn-sm btn-accent" href="#" aria-disabled="true">Live Demo</a>
+                    <a class="btn btn-sm btn-outline-accent" href="#" aria-disabled="true">
+                      <i class="bi bi-github me-1" aria-hidden="true"></i>
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12">
+              <article class="project-card reveal">
+                <div class="project-media">
+                  <img src="assets/img/project-placeholder.svg" alt="Sonic Gallery preview" loading="lazy" />
+                </div>
+                <div class="project-body">
+                  <div class="d-flex align-items-start justify-content-between gap-3">
+                    <div>
+                      <h3 class="h5 mb-1">Sonic Gallery</h3>
+                      <p class="text-muted mb-3">A responsive gallery with smooth navigation and a clean, modern layout.</p>
+                    </div>
+                    <span class="badge badge-soft">Frontend</span>
+                  </div>
+
+                  <div class="row g-3">
+                    <div class="col-md-7">
+                      <p class="label mb-1">What I focused on</p>
+                      <ul class="text-muted mb-0 ps-3">
+                        <li>Responsive grid & image modal</li>
+                        <li>Keyboard-friendly interactions</li>
+                        <li>Performance-friendly animations</li>
+                      </ul>
+                    </div>
+                    <div class="col-md-5">
+                      <p class="label mb-1">My role</p>
+                      <p class="text-muted mb-0">Frontend developer — layout, components, and interactions.</p>
+                    </div>
+                  </div>
+
+                  <div class="mt-3 d-flex flex-wrap gap-2">
+                    <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">Bootstrap</span>
+                  </div>
+
+                  <div class="mt-3 d-flex flex-wrap gap-2">
+                    <a class="btn btn-sm btn-accent" href="#" aria-disabled="true">Live Demo</a>
+                    <a class="btn btn-sm btn-outline-accent" href="#" aria-disabled="true">
+                      <i class="bi bi-github me-1" aria-hidden="true"></i>
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="section section-pad">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title reveal">Skills</h2>
+            <p class="section-kicker text-muted reveal">A practical toolkit for building complete products.</p>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+              <div class="panel reveal h-100">
+                <div class="d-flex align-items-center justify-content-between">
+                  <h3 class="h6 mb-0">Frontend</h3>
+                  <i class="bi bi-window text-accent" aria-hidden="true"></i>
+                </div>
+                <hr class="divider-soft my-3" />
+                <div class="skill">
+                  <div class="d-flex justify-content-between"><span>HTML</span><span class="text-muted">90%</span></div>
+                  <div class="progress"><div class="progress-bar" style="width: 90%"></div></div>
+                </div>
+                <div class="skill">
+                  <div class="d-flex justify-content-between"><span>CSS</span><span class="text-muted">85%</span></div>
+                  <div class="progress"><div class="progress-bar" style="width: 85%"></div></div>
+                </div>
+                <div class="skill">
+                  <div class="d-flex justify-content-between"><span>JavaScript</span><span class="text-muted">80%</span></div>
+                  <div class="progress"><div class="progress-bar" style="width: 80%"></div></div>
+                </div>
+                <div class="skill mb-0">
+                  <div class="d-flex justify-content-between"><span>Bootstrap 5</span><span class="text-muted">85%</span></div>
+                  <div class="progress"><div class="progress-bar" style="width: 85%"></div></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+              <div class="panel reveal h-100">
+                <div class="d-flex align-items-center justify-content-between">
+                  <h3 class="h6 mb-0">Backend</h3>
+                  <i class="bi bi-hdd-network text-accent" aria-hidden="true"></i>
+                </div>
+                <hr class="divider-soft my-3" />
+                <div class="skill">
+                  <div class="d-flex justify-content-between"><span>PHP</span><span class="text-muted">75%</span></div>
+                  <div class="progress"><div class="progress-bar" style="width: 75%"></div></div>
+                </div>
+                <div class="skill mb-0">
+                  <div class="d-flex justify-content-between"><span>MySQL</span><span class="text-muted">75%</span></div>
+                  <div class="progress"><div class="progress-bar" style="width: 75%"></div></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+              <div class="panel reveal h-100">
+                <div class="d-flex align-items-center justify-content-between">
+                  <h3 class="h6 mb-0">Mobile</h3>
+                  <i class="bi bi-phone text-accent" aria-hidden="true"></i>
+                </div>
+                <hr class="divider-soft my-3" />
+                <div class="skill">
+                  <div class="d-flex justify-content-between"><span>Kotlin</span><span class="text-muted">70%</span></div>
+                  <div class="progress"><div class="progress-bar" style="width: 70%"></div></div>
+                </div>
+                <div class="skill mb-0">
+                  <div class="d-flex justify-content-between"><span>Flutter</span><span class="text-muted">70%</span></div>
+                  <div class="progress"><div class="progress-bar" style="width: 70%"></div></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+              <div class="panel reveal h-100">
+                <div class="d-flex align-items-center justify-content-between">
+                  <h3 class="h6 mb-0">Tools</h3>
+                  <i class="bi bi-wrench-adjustable text-accent" aria-hidden="true"></i>
+                </div>
+                <hr class="divider-soft my-3" />
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="chip">Git</span>
+                  <span class="chip">Postman</span>
+                  <span class="chip">Firebase</span>
+                  <span class="chip">VS Code</span>
+                  <span class="chip">Figma</span>
+                </div>
+                <p class="text-muted small mt-3 mb-0">Update proficiency levels any time in <code>index.html</code>.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience / Education -->
+      <section id="experience" class="section section-pad section-alt">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title reveal">Experience & Education</h2>
+            <p class="section-kicker text-muted reveal">A clear timeline recruiters can scan quickly.</p>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-lg-6">
+              <div class="panel reveal h-100">
+                <h3 class="h6 mb-3"><i class="bi bi-mortarboard me-2 text-accent" aria-hidden="true"></i>Education</h3>
+                <ul class="timeline">
+                  <li>
+                    <div class="timeline-dot" aria-hidden="true"></div>
+                    <div class="timeline-content">
+                      <p class="mb-1 fw-semibold">OFPPT — Mobile Development</p>
+                      <p class="mb-0 text-muted small">Training focused on mobile apps, UI, and real-world projects.</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="timeline-dot" aria-hidden="true"></div>
+                    <div class="timeline-content">
+                      <p class="mb-1 fw-semibold">Self-learning & Practice</p>
+                      <p class="mb-0 text-muted small">Building projects to strengthen frontend, backend, and mobile skills.</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="panel reveal h-100">
+                <h3 class="h6 mb-3"><i class="bi bi-briefcase me-2 text-accent" aria-hidden="true"></i>Experience</h3>
+                <ul class="timeline">
+                  <li>
+                    <div class="timeline-dot" aria-hidden="true"></div>
+                    <div class="timeline-content">
+                      <p class="mb-1 fw-semibold">Project-Based Development</p>
+                      <p class="mb-0 text-muted small">Delivered full apps: UI, business logic, and data layers.</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="timeline-dot" aria-hidden="true"></div>
+                    <div class="timeline-content">
+                      <p class="mb-1 fw-semibold">Internship (Add details)</p>
+                      <p class="mb-0 text-muted small">Replace this item with your internship/company + key achievements.</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section section-pad">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title reveal">Contact</h2>
+            <p class="section-kicker text-muted reveal">Let’s work together — I reply quickly.</p>
+          </div>
+
+          <div class="row g-4 align-items-stretch">
+            <div class="col-lg-6">
+              <div class="panel reveal h-100">
+                <h3 class="h6 mb-3">Send a message</h3>
+                <form id="contactForm" novalidate>
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input id="name" class="form-control form-control-dark" type="text" name="name" autocomplete="name" required />
+                    <div class="invalid-feedback">Please enter your name.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input id="email" class="form-control form-control-dark" type="email" name="email" autocomplete="email" required />
+                    <div class="invalid-feedback">Please enter a valid email.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea id="message" class="form-control form-control-dark" name="message" rows="5" required></textarea>
+                    <div class="invalid-feedback">Please write a short message.</div>
+                  </div>
+                  <button class="btn btn-accent" type="submit">
+                    <i class="bi bi-send me-2" aria-hidden="true"></i>
+                    Send
+                  </button>
+                  <p class="text-muted small mt-3 mb-0">
+                    This form works locally using your email client (mailto). To collect submissions online, connect Formspree/Netlify forms later.
+                  </p>
+                </form>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="panel reveal h-100">
+                <h3 class="h6 mb-3">Details</h3>
+                <ul class="list-unstyled mb-4">
+                  <li class="d-flex gap-2 align-items-start mb-2">
+                    <i class="bi bi-envelope text-accent mt-1" aria-hidden="true"></i>
+                    <div>
+                      <p class="mb-0 fw-semibold">Email</p>
+                      <p class="mb-0 text-muted small">
+                        <a class="link-underline" href="mailto:your.email@example.com">your.email@example.com</a>
+                        <span class="d-block">Replace with your real email in <code>index.html</code>.</span>
+                      </p>
+                    </div>
+                  </li>
+                  <li class="d-flex gap-2 align-items-start">
+                    <i class="bi bi-geo-alt text-accent mt-1" aria-hidden="true"></i>
+                    <div>
+                      <p class="mb-0 fw-semibold">Location</p>
+                      <p class="mb-0 text-muted small">Morocco (remote-friendly)</p>
+                    </div>
+                  </li>
+                </ul>
+
+                <div class="d-flex gap-2 flex-wrap">
+                  <a class="btn btn-outline-accent" href="https://github.com/your-username" target="_blank" rel="noreferrer">
+                    <i class="bi bi-github me-2" aria-hidden="true"></i>GitHub
+                  </a>
+                  <a class="btn btn-outline-accent" href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noreferrer">
+                    <i class="bi bi-linkedin me-2" aria-hidden="true"></i>LinkedIn
+                  </a>
+                </div>
+
+                <div class="callout mt-4">
+                  <p class="mb-1 fw-semibold">Let’s work together</p>
+                  <p class="mb-0 text-muted small">If you have a role or project, I’d love to hear about it.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-2">
+        <p class="mb-0 small text-muted">© <span id="year"></span> Zakaria EL-IREJ. All rights reserved.</p>
+        <div class="d-flex gap-3">
+          <a class="icon-link" href="https://github.com/your-username" target="_blank" rel="noreferrer" aria-label="GitHub">
+            <i class="bi bi-github" aria-hidden="true"></i>
+          </a>
+          <a class="icon-link" href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            <i class="bi bi-linkedin" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional: GSAP for very subtle intro (kept light) -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+

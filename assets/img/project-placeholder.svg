@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" role="img" aria-label="Project preview placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A192F" />
+      <stop offset="1" stop-color="#0F2342" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#64FFDA" stop-opacity="0.85" />
+      <stop offset="1" stop-color="#2DD4BF" stop-opacity="0.85" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="960" height="640" rx="28" fill="url(#bg)" />
+  <rect x="64" y="92" width="832" height="456" rx="22" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.16)" />
+  <rect x="96" y="128" width="260" height="12" rx="6" fill="url(#accent)" />
+  <rect x="96" y="160" width="500" height="10" rx="5" fill="rgba(255,255,255,0.22)" />
+  <rect x="96" y="184" width="420" height="10" rx="5" fill="rgba(255,255,255,0.18)" />
+  <rect x="96" y="240" width="320" height="220" rx="16" fill="rgba(100,255,218,0.10)" stroke="rgba(100,255,218,0.22)" />
+  <rect x="440" y="240" width="420" height="14" rx="7" fill="rgba(255,255,255,0.22)" />
+  <rect x="440" y="270" width="360" height="12" rx="6" fill="rgba(255,255,255,0.18)" />
+  <rect x="440" y="296" width="392" height="12" rx="6" fill="rgba(255,255,255,0.14)" />
+  <rect x="440" y="352" width="140" height="34" rx="17" fill="rgba(100,255,218,0.12)" stroke="rgba(100,255,218,0.24)" />
+  <rect x="592" y="352" width="140" height="34" rx="17" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.16)" />
+  <path d="M188 316l26 44h-52l26-44Z" fill="rgba(100,255,218,0.35)" />
+  <text x="96" y="520" font-family="Inter, Arial, sans-serif" font-size="16" fill="rgba(255,255,255,0.62)">
+    Replace this placeholder with your real screenshots in assets/img
+  </text>
+</svg>
+

@@ -1,8 +1,3 @@
-// Portfolio interactions:
-// - Theme toggle (saved in localStorage)
-// - Smooth scrolling + active nav link
-// - Reveal-on-scroll animations (IntersectionObserver)
-// - Contact form mailto (works locally)
 
 (() => {
   const html = document.documentElement;

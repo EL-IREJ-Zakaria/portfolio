@@ -1,0 +1,1169 @@
+You are an award-winning Senior UI/UX Designer, Creative Director, Product Designer and Frontend Engineer.
+
+Redesign and build a world-class personal portfolio website for:
+
+EL IREJ ZAKARIA
+
+The portfolio must be based on the attached CV and portrait photo.
+
+The final result must feel modern, premium, original and professional. It must not look like a generic student template.
+
+The design should reflect Zakaria’s real profile:
+
+- Mobile Development graduate
+- Specialized Technician in Digital Development
+- Mobile Development option
+- CMC Rabat, 2024–2026
+- Background in Physics and Chemistry
+- Android, Kotlin, Flutter and web development skills
+- Junior developer transitioning from education to professional work
+
+Use the uploaded portrait as the main professional image in the Hero section.
+
+Do not invent professional experience, companies, certifications, project links or technical details that are not present in the CV.
+
+==================================================
+MAIN CREATIVE DIRECTION
+==================================================
+
+Create a portfolio built around this central narrative:
+
+“From student projects to real digital products.”
+
+The website must communicate:
+
+1. Zakaria’s educational journey
+2. His development skills
+3. His academic and personal projects
+4. His mobile applications
+5. His leadership and extracurricular activities
+6. His readiness for internships, junior roles and freelance projects
+
+The website should feel suitable for applications to:
+
+- Mobile Developer internships
+- Junior Android Developer roles
+- Junior Flutter Developer roles
+- Web Developer roles
+- Full-stack junior positions
+- Freelance development projects
+
+==================================================
+DESIGN STYLE
+==================================================
+
+Use a sophisticated dark technology theme.
+
+Visual direction:
+
+- Premium
+- Clean
+- Minimal
+- Futuristic but professional
+- Strong typography
+- Large spacing
+- Clear visual hierarchy
+- Elegant gradients
+- Subtle glassmorphism
+- Soft glow effects
+- Thin borders
+- Modern cards
+- Smooth rounded corners
+- Controlled animations
+- High-quality layout
+- Editorial portfolio feeling
+
+Avoid:
+
+- Excessive neon effects
+- Gaming-style interfaces
+- Overloaded particles
+- Generic developer templates
+- Too many animated elements
+- Large walls of text
+- Fake testimonials
+- Fake company logos
+- Fake experience
+- Fake statistics
+
+==================================================
+COLOR SYSTEM
+==================================================
+
+Background:
+#050816
+
+Secondary background:
+#0B1020
+
+Cards:
+#11182B
+
+Elevated cards:
+#162039
+
+Primary:
+#4F8CFF
+
+Secondary:
+#31D6E8
+
+Education accent:
+#A8F06A
+
+Main text:
+#F5F8FF
+
+Secondary text:
+#9AA7BD
+
+Borders:
+#202A40
+
+Use subtle gradients such as:
+
+- Blue to cyan
+- Deep navy to dark blue
+- Blue with a small green accent
+
+Ensure excellent contrast and accessibility.
+
+==================================================
+TYPOGRAPHY
+==================================================
+
+Use a modern font combination.
+
+Recommended:
+
+- Headings: Space Grotesk, Sora or Manrope
+- Body: Inter
+
+Typography should be:
+
+- Bold and expressive for major titles
+- Clear and readable for descriptions
+- Compact for labels and metadata
+- Consistent across the website
+
+==================================================
+PAGE STRUCTURE
+==================================================
+
+Create the following navigation:
+
+- Home
+- About
+- Education
+- Skills
+- Projects
+- Applications
+- Contact
+
+Sticky navigation with:
+
+- Zakaria / Dev logo
+- Active section indicator
+- Download CV button
+- Mobile menu
+- Smooth section scrolling
+
+==================================================
+1. HERO SECTION
+==================================================
+
+Create a premium two-column Hero section.
+
+Left side:
+
+Small availability badge:
+
+“Open to internships, junior roles and freelance projects”
+
+Main headline:
+
+“From student projects to real digital products.”
+
+Supporting title:
+
+“Mobile Developer focused on Android, Flutter and modern web experiences.”
+
+Introductory text:
+
+“I’m EL IREJ Zakaria, a graduate in Digital Development, Mobile Development option, from CMC Rabat. I build mobile and web applications while continuously improving my software engineering, UI and backend skills.”
+
+Primary buttons:
+
+- Explore My Projects
+- Download CV
+
+Secondary text links:
+
+- GitHub
+- LinkedIn
+- Email
+
+Add technology labels:
+
+- Android
+- Kotlin
+- Jetpack Compose
+- Flutter
+- Dart
+- Web Development
+
+Display small statistics:
+
+- 9+ Mobile Applications
+- 10+ Academic and Personal Projects
+- 2024–2026 CMC Rabat
+- 15+ Technologies Practiced
+
+Right side:
+
+Use the uploaded professional portrait.
+
+Presentation requirements:
+
+- Elegant portrait crop
+- Rounded frame
+- Subtle blue and cyan glow
+- Professional background treatment
+- Floating card:
+
+“Mobile Development Graduate”
+“CMC Rabat • 2026”
+
+Add a small decorative code or interface card behind the portrait.
+
+Do not replace the portrait with an illustration.
+
+==================================================
+2. ABOUT SECTION
+==================================================
+
+Section label:
+
+“About Me”
+
+Title:
+
+“A developer building his path through practice.”
+
+Write a professional biography that presents Zakaria as a junior developer.
+
+Mention:
+
+- Specialized Technician diploma
+- Digital Development
+- Mobile Development option
+- CMC Rabat
+- Interest in Android and Flutter
+- Interest in modern UI
+- Backend integration
+- REST APIs
+- Databases
+- Artificial intelligence tools
+- Continuous learning
+- Team collaboration
+
+Suggested biography:
+
+“I am a junior mobile and web developer with training in Digital Development, specializing in Mobile Development. During my studies at CMC Rabat, I worked on Android, Flutter, web, backend and database projects. I enjoy transforming ideas into useful applications and improving my skills through practical projects, teamwork and continuous learning.”
+
+Add a personal information card:
+
+- Location: Temara, Rabat, Morocco
+- Arabic: Native
+- French: C1
+- English: B2
+
+==================================================
+3. EDUCATION JOURNEY
+==================================================
+
+This must be one of the most important sections.
+
+Section label:
+
+“Education Journey”
+
+Title:
+
+“A clear path from science to software.”
+
+Create a vertical or horizontal modern timeline.
+
+Timeline item 1:
+
+2024
+
+Baccalaureate in Physics and Chemistry
+
+Lycée Salah Eddin Ayoubi, Rabat
+
+Option:
+Science Physique
+
+Learning value:
+
+- Analytical thinking
+- Scientific reasoning
+- Discipline
+- Problem solving
+
+Activity:
+
+- Member and representative of the school volleyball team
+
+Timeline item 2:
+
+2024–2026
+
+Specialized Technician in Digital Development
+
+CMC Rabat
+
+Option:
+Mobile Development
+
+Topics practiced:
+
+- Kotlin
+- Jetpack Compose
+- XML
+- Flutter
+- Dart
+- Java
+- Web development
+- PHP
+- JavaScript
+- SQL
+- Databases
+- APIs
+- Project management
+
+Activities:
+
+- Sports Club President
+- Cultural Club Event Assistant
+- Robotics Club Member
+
+Timeline item 3:
+
+2026 and beyond
+
+Professional Transition
+
+Description:
+
+“Applying academic learning to internships, junior developer roles, freelance work and production-ready projects.”
+
+Focus areas:
+
+- Clean architecture
+- Teamwork
+- Real users
+- Scalable applications
+- Professional development workflows
+
+==================================================
+4. CORE LEARNING SECTION
+==================================================
+
+Title:
+
+“What my training prepared me to do.”
+
+Create four premium cards.
+
+Card 1:
+
+Mobile Engineering
+
+Include:
+
+- Kotlin
+- Flutter
+- Dart
+- Jetpack Compose
+- Android XML
+- Java
+- Responsive mobile interfaces
+- Local data management
+
+Card 2:
+
+Web Development
+
+Include:
+
+- HTML
+- CSS
+- JavaScript
+- PHP
+- WordPress
+- Responsive design
+- Forms
+- Dynamic websites
+
+Card 3:
+
+Backend and Data
+
+Include:
+
+- REST APIs
+- MySQL
+- SQL
+- MongoDB
+- Python
+- Authentication concepts
+- CRUD operations
+- Server communication
+
+Card 4:
+
+Professional Skills
+
+Include:
+
+- Project management
+- Teamwork
+- Communication
+- Problem solving
+- Leadership
+- Continuous learning
+- Event organization
+
+Each card must include:
+
+- Number
+- Icon
+- Short explanation
+- Technology labels
+- Elegant hover effect
+
+==================================================
+5. SKILLS SECTION
+==================================================
+
+Do not use fake percentage progress bars.
+
+Instead, organize skills by practical category.
+
+Mobile:
+
+- Flutter
+- Dart
+- Kotlin
+- Jetpack Compose
+- Android XML
+- Java
+
+Web:
+
+- HTML
+- CSS
+- JavaScript
+- PHP
+- WordPress
+
+Backend and databases:
+
+- REST APIs
+- MySQL
+- SQL
+- MongoDB
+- Python
+
+Tools and environments:
+
+- Git
+- GitHub
+- Linux
+- VS Code
+- Android Studio
+- Figma
+- Microsoft Office
+
+AI tools:
+
+- ChatGPT
+- Claude
+- Midjourney
+- Generative AI tools
+
+Soft skills:
+
+- Teamwork
+- Project management
+- Communication
+- Leadership
+- Problem solving
+
+Use:
+
+- Skill cards
+- Technology chips
+- Icons
+- Hover details
+- Small descriptions
+
+==================================================
+6. PROJECTS SECTION
+==================================================
+
+Section label:
+
+“Selected Work”
+
+Title:
+
+“Projects that demonstrate progression.”
+
+Present projects as proof of learning.
+
+Every project card must contain:
+
+- Project title
+- Category
+- Short description
+- Technologies
+- Learning outcome
+- Screenshot placeholder
+- GitHub button only when a real link is available
+- Live Demo button only when a real link is available
+- “Academic Project” or “Personal Project” badge
+- Subtle hover animation
+
+Project 1:
+
+Student Registration Platform
+
+Description:
+
+“A frontend registration interface created for students of the Centre des Métiers et des Compétences.”
+
+Technologies:
+
+- HTML
+- CSS
+- JavaScript
+
+Learning outcome:
+
+“Form design, interface structure and user input handling.”
+
+Project 2:
+
+Travel Agency Website
+
+Description:
+
+“An interactive website for discovering travel destinations and services.”
+
+Technologies:
+
+- HTML
+- CSS
+- JavaScript
+
+Learning outcome:
+
+“Responsive layouts, visual hierarchy and dynamic interface elements.”
+
+Project 3:
+
+Second-Hand Clothing Marketplace
+
+Description:
+
+“An e-commerce website concept for buying and reselling second-hand clothing.”
+
+Technologies:
+
+- Frontend development
+- Web interface
+- E-commerce structure
+
+Learning outcome:
+
+“Product organization, marketplace flow and reusable UI components.”
+
+Project 4:
+
+Hotel Reservation System
+
+Description:
+
+“A hotel booking system with database management and reservation functionality.”
+
+Technologies:
+
+- PHP
+- JavaScript
+- MySQL
+- REST API concepts
+
+Learning outcome:
+
+“Database-driven development, booking workflow and server communication.”
+
+Project 5:
+
+Automotive Equipment Management System
+
+Description:
+
+“A frontend and backend system for managing automotive equipment parts.”
+
+Technologies:
+
+- HTML
+- CSS
+- MongoDB
+- Backend development
+
+Learning outcome:
+
+“CRUD operations, data organization and management interfaces.”
+
+Project 6:
+
+freeKidsLearn
+
+Description:
+
+“An educational mobile application created to help children learn Arabic and French alphabets.”
+
+Technologies:
+
+- Kotlin
+- Android
+- Local data storage
+- Educational interface
+
+Learning outcome:
+
+“Mobile architecture, child-friendly UI and offline learning features.”
+
+==================================================
+7. MOBILE APPLICATIONS SECTION
+==================================================
+
+Section label:
+
+“Application Lab”
+
+Title:
+
+“A growing mobile development portfolio.”
+
+Create a modern grid of mobile app cards.
+
+Applications:
+
+- Sleep Tracker
+- Smart Compteur Taxi
+- TravelAPP
+- Répertoire
+- SalatTime
+- Climify
+- NexTalk
+- freeKidsLearn
+- Triply
+
+Every app card should contain:
+
+- App name
+- Category
+- Technology label
+- Development status
+- Mobile screen placeholder
+- Short neutral description
+
+Do not invent complete functionality when it is not available.
+
+Use categories such as:
+
+- Health
+- Mobility
+- Travel
+- Contacts
+- Lifestyle
+- Weather
+- Communication
+- Education
+- Trip planning
+
+Use status labels:
+
+- Completed
+- Academic Project
+- Personal Project
+- In Development
+
+Only assign a status when supported by the available information. Otherwise use:
+
+“Project Portfolio”
+
+==================================================
+8. LEADERSHIP AND ACTIVITIES
+==================================================
+
+Title:
+
+“Beyond the classroom.”
+
+Create three cards.
+
+Sports Club President
+
+Description:
+
+“Contributed to the organization of sports activities and team coordination at CMC Rabat.”
+
+Cultural Club Event Assistant
+
+Description:
+
+“Supported the preparation and organization of cultural events.”
+
+Robotics Club Member
+
+Description:
+
+“Participated in a collaborative technical environment focused on technology and experimentation.”
+
+Add skills demonstrated:
+
+- Leadership
+- Organization
+- Teamwork
+- Communication
+- Responsibility
+
+==================================================
+9. LANGUAGES
+==================================================
+
+Create modern language cards.
+
+Arabic:
+
+Native
+
+French:
+
+C1
+
+English:
+
+B2
+
+Do not use inaccurate percentage values.
+
+Use level labels and small explanations instead.
+
+==================================================
+10. CAREER OBJECTIVE
+==================================================
+
+Create a clear professional section.
+
+Title:
+
+“Ready to turn learning into impact.”
+
+Text:
+
+“I am looking for an internship, junior developer position or freelance opportunity where I can contribute to real projects, learn from experienced professionals and grow as a reliable mobile or full-stack developer.”
+
+Add preferred opportunities:
+
+- Android development
+- Flutter development
+- Mobile application development
+- Web development
+- Junior full-stack projects
+- WordPress development
+
+CTA:
+
+- Contact Me
+- Download CV
+- View Projects
+
+==================================================
+11. CONTACT SECTION
+==================================================
+
+Create an elegant contact area.
+
+Display:
+
+Name:
+EL IREJ Zakaria
+
+Email:
+elleirejzakaria@gmail.com
+
+Phone:
++212 649 144 468
+
+Location:
+Temara, Rabat, Morocco
+
+Add social buttons:
+
+- GitHub
+- LinkedIn
+- Email
+- WhatsApp
+
+Add a contact form:
+
+- Full name
+- Email
+- Subject
+- Message
+- Send Message
+
+Include:
+
+- Form validation states
+- Error messages
+- Success state
+- Accessible labels
+- Loading state
+
+==================================================
+12. FOOTER
+==================================================
+
+Create a minimal premium footer.
+
+Content:
+
+“© 2026 EL IREJ ZAKARIA”
+
+“Mobile • Web • Continuous Learning”
+
+“Designed and developed with React and TypeScript”
+
+Add:
+
+- Back to top button
+- Social links
+- CV link
+
+==================================================
+ANIMATIONS
+==================================================
+
+Use refined animations only.
+
+Include:
+
+- Smooth page loading
+- Scroll reveal
+- Text fade and slide
+- Timeline reveal
+- Card hover movement
+- Subtle portrait parallax
+- Animated gradient accents
+- Active navigation animation
+- Smooth scrolling
+- Scroll progress indicator
+- Button micro-interactions
+
+Do not animate every element.
+
+Animations must improve the experience, not distract the user.
+
+==================================================
+RESPONSIVE DESIGN
+==================================================
+
+Create complete layouts for:
+
+- Desktop: 1440px
+- Laptop: 1280px
+- Tablet: 768px
+- Mobile: 390px
+
+Responsive requirements:
+
+- Hero becomes one column on mobile
+- Portrait remains visible
+- Timeline becomes vertical
+- Cards use one column on small screens
+- Navigation becomes a mobile drawer
+- Buttons remain easy to tap
+- Text remains readable
+- No horizontal overflow
+- Contact form becomes one column
+
+==================================================
+FIGMA REQUIREMENTS
+==================================================
+
+Create a professional Figma file containing:
+
+Page 1:
+Design System
+
+Include:
+
+- Color styles
+- Typography
+- Spacing system
+- Radius system
+- Shadows
+- Buttons
+- Tags
+- Cards
+- Inputs
+- Navigation components
+
+Page 2:
+Desktop Portfolio
+
+Page 3:
+Tablet Portfolio
+
+Page 4:
+Mobile Portfolio
+
+Page 5:
+Components
+
+Use:
+
+- Auto Layout
+- Components
+- Variants
+- Constraints
+- Reusable styles
+- Consistent naming
+- Organized layers
+- Responsive frames
+
+Create button variants:
+
+- Primary
+- Secondary
+- Ghost
+- Disabled
+- Hover
+
+Create input variants:
+
+- Default
+- Focus
+- Error
+- Success
+
+Create card variants:
+
+- Project
+- Skill
+- Education
+- Mobile App
+- Activity
+
+==================================================
+FRONTEND IMPLEMENTATION
+==================================================
+
+When converting the design to code, use:
+
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+- GSAP only for advanced sequences
+- Lenis Smooth Scroll
+- Shadcn UI
+- Lucide React
+- React Hook Form
+- Zod
+
+Avoid unnecessary dependencies.
+
+Use GSAP only when Framer Motion is not enough.
+
+==================================================
+PROJECT ARCHITECTURE
+==================================================
+
+Use a professional structure:
+
+src/
+  assets/
+  components/
+    common/
+    layout/
+    sections/
+    ui/
+  data/
+  hooks/
+  lib/
+  pages/
+  styles/
+  types/
+
+Recommended components:
+
+- Navbar
+- MobileMenu
+- HeroSection
+- AboutSection
+- EducationTimeline
+- LearningCard
+- SkillsSection
+- ProjectCard
+- ApplicationCard
+- ActivitiesSection
+- LanguagesSection
+- CareerSection
+- ContactForm
+- Footer
+- ScrollProgress
+- BackToTop
+- SectionHeading
+
+Store portfolio content in structured TypeScript data files.
+
+Do not hardcode repeated content directly inside components.
+
+==================================================
+SEO
+==================================================
+
+Add:
+
+Title:
+
+“EL IREJ Zakaria | Mobile & Web Developer”
+
+Meta description:
+
+“Portfolio of EL IREJ Zakaria, a Mobile Development graduate specializing in Android, Kotlin, Flutter and modern web development.”
+
+Add:
+
+- Open Graph metadata
+- Twitter metadata
+- Favicon
+- Canonical URL placeholder
+- robots.txt
+- sitemap.xml
+- Semantic HTML
+- Structured data for Person
+
+==================================================
+PERFORMANCE
+==================================================
+
+Use:
+
+- Lazy loading
+- Optimized portrait image
+- WebP or AVIF
+- Responsive image sizes
+- Code splitting
+- Minimal JavaScript
+- Reduced-motion support
+- Optimized animations
+- Lighthouse-friendly implementation
+
+==================================================
+ACCESSIBILITY
+==================================================
+
+Ensure:
+
+- Semantic HTML
+- Keyboard navigation
+- Visible focus states
+- ARIA labels
+- Form labels
+- Accessible menu
+- Sufficient contrast
+- Reduced-motion support
+- Accessible buttons and links
+- Meaningful image alternative text
+
+Portrait alt text:
+
+“Professional portrait of EL IREJ Zakaria”
+
+==================================================
+CONTENT RULES
+==================================================
+
+Use the attached CV as the source of truth.
+
+Correct obvious spelling only in presentation, such as:
+
+- MongoDB instead of MangoDB
+- Developed Applications instead of Application Développer
+- Specialized Technician instead of incorrect literal translations
+
+Do not invent:
+
+- Work experience
+- Companies
+- Certifications
+- Client projects
+- Awards
+- Testimonials
+- GitHub URLs
+- LinkedIn URL
+- Live project URLs
+- Project statistics
+- Skill percentages
+
+Use placeholders where information is unavailable.
+
+==================================================
+FINAL DELIVERABLES
+==================================================
+
+Generate:
+
+1. Complete modern Figma portfolio
+2. Desktop design
+3. Tablet design
+4. Mobile design
+5. Design system
+6. Reusable components
+7. Complete React project
+8. Production-ready TypeScript code
+9. Responsive implementation
+10. README documentation
+11. Installation instructions
+12. Deployment instructions
+13. Placeholder system for screenshots and links
+14. CV download integration
+15. Contact form UI and validation
+16. SEO files
+17. Clean and maintainable architecture
+
+Before finishing:
+
+- Check all sections for consistency
+- Verify spacing and typography
+- Verify responsive behavior
+- Remove duplicated elements
+- Remove fake information
+- Confirm that the educational journey is prominent
+- Confirm that the design fits a junior mobile developer
+- Confirm that the portrait is used professionally
+- Confirm that the project can run with:
+
+npm install
+npm run dev

@@ -1,20 +1,17 @@
 import { motion } from 'framer-motion'
-import {
-  FaMobileAlt, FaPalette, FaServer, FaRobot, FaGithub, FaBook,
-} from 'react-icons/fa'
-import { FiCode } from 'react-icons/fi'
+import { Smartphone, Palette, Server, Bot, Github, BookOpen, Code2 } from 'lucide-react'
 import SectionWrapper from './SectionWrapper'
 import SectionHeader from './SectionHeader'
 import AnimatedCounter from './AnimatedCounter'
 import { STATISTICS } from '@/constants/data'
 
 const PASSIONS = [
-  { icon: FaMobileAlt, label: 'Mobile Development', color: '#3B82F6', desc: 'Flutter & Kotlin native apps' },
-  { icon: FaPalette, label: 'Modern UI/UX', color: '#06B6D4', desc: 'Beautiful, intuitive interfaces' },
-  { icon: FaServer, label: 'Backend & APIs', color: '#60A5FA', desc: 'REST APIs & databases' },
-  { icon: FaRobot, label: 'Gen AI', color: '#8B5CF6', desc: 'AI-powered applications' },
-  { icon: FaGithub, label: 'Open Source', color: '#94A3B8', desc: 'Contributing to community' },
-  { icon: FaBook, label: 'Continuous Learning', color: '#10B981', desc: 'Always growing & improving' },
+  { icon: Smartphone, label: 'Mobile Development', color: '#3B82F6', desc: 'Flutter & Kotlin native apps' },
+  { icon: Palette, label: 'Modern UI/UX', color: '#06B6D4', desc: 'Beautiful, intuitive interfaces' },
+  { icon: Server, label: 'Backend & APIs', color: '#60A5FA', desc: 'REST APIs & databases' },
+  { icon: Bot, label: 'Gen AI', color: '#8B5CF6', desc: 'AI-powered applications' },
+  { icon: Github, label: 'Open Source', color: '#94A3B8', desc: 'Contributing to community' },
+  { icon: BookOpen, label: 'Continuous Learning', color: '#10B981', desc: 'Always growing & improving' },
 ]
 
 export default function About() {
@@ -41,7 +38,7 @@ export default function About() {
               {/* Avatar placeholder */}
               <div className="flex items-center gap-4">
                 <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-primary to-accent flex items-center justify-center shadow-xl shadow-primary/20 shrink-0">
-                  <FiCode size={28} className="text-white" />
+                  <Code2 size={28} className="text-white" />
                 </div>
                 <div>
                   <h3 className="font-bold text-lg text-white">Zakaria El Irej</h3>

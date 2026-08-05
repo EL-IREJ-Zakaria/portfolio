@@ -2,8 +2,7 @@ import { motion } from 'framer-motion'
 import { APPLICATIONS } from '@/constants/data'
 import SectionWrapper from './SectionWrapper'
 import SectionHeader from './SectionHeader'
-import { FaAndroid } from 'react-icons/fa'
-import { SiKotlin } from 'react-icons/si'
+import { Smartphone, Code2 } from 'lucide-react'
 
 const STATUS_STYLES: Record<string, string> = {
   Published: 'text-emerald-400 bg-emerald-400/10 border-emerald-400/20',
@@ -25,7 +24,7 @@ export default function Applications() {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
           {APPLICATIONS.map((app, i) => {
             const Icon = app.icon
-            const TechIcon = app.technology === 'Flutter' ? FaAndroid : SiKotlin
+            const TechIcon = app.technology === 'Flutter' ? Smartphone : Code2
             const techColor = app.technology === 'Flutter' ? '#02569B' : '#7F52FF'
 
             return (

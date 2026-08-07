@@ -19,6 +19,11 @@
     @apply bg-background text-white antialiased;
     font-family: 'Inter', system-ui, sans-serif;
     overflow-x: hidden;
+    cursor: none;
+  }
+
+  a, button, [role="button"], input, textarea, select, label {
+    cursor: none;
   }
 
   ::selection {

@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Smartphone, Palette, Server, Bot, Github, BookOpen, Code2 } from 'lucide-react'
+import { Smartphone, Palette, Server, Bot, Github, BookOpen } from 'lucide-react'
 import SectionWrapper from './SectionWrapper'
 import SectionHeader from './SectionHeader'
 import AnimatedCounter from './AnimatedCounter'
@@ -37,8 +37,12 @@ export default function About() {
             <div className="glass-card p-8 flex flex-col gap-5">
               {/* Avatar placeholder */}
               <div className="flex items-center gap-4">
-                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-primary to-accent flex items-center justify-center shadow-xl shadow-primary/20 shrink-0">
-                  <Code2 size={28} className="text-white" />
+                <div className="w-16 h-16 rounded-2xl overflow-hidden shadow-xl shadow-primary/20 shrink-0 ring-2 ring-primary/30">
+                  <img
+                    src="/profile.jpg"
+                    alt="Zakaria El Irej"
+                    className="w-full h-full object-cover object-top"
+                  />
                 </div>
                 <div>
                   <h3 className="font-bold text-lg text-white">Zakaria El Irej</h3>

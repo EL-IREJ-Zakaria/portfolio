@@ -26,7 +26,6 @@ import {
   Network,
   Cpu,
   Figma,
-  Linux,
   Clock,
 } from 'lucide-react'
 import {
@@ -44,7 +43,7 @@ import {
   SiAndroidstudio,
   SiClaude,
 } from 'react-icons/si'
-import { FaReact, FaWordpress } from 'react-icons/fa'
+import { FaReact, FaWordpress, FaAndroid, FaLinux } from 'react-icons/fa'
 import { FiZap, FiShoppingBag, FiHome, FiSettings } from 'react-icons/fi'
 import type { NavLink, SkillCategory, Project, Application, Education, Language, Statistic, Testimonial, Certificate, BlogPost } from '@/types'
 
@@ -79,7 +78,7 @@ export const TYPING_ROLES = [
 export const FLOATING_TECH = [
   { name: 'Flutter', icon: Smartphone, color: '#02569B', position: 'top-0 left-0' },
   { name: 'Kotlin', icon: SiKotlin, color: '#7F52FF', position: 'top-10 right-0' },
-  { name: 'Android', icon: Linux, color: '#3DDC84', position: 'top-1/2 -left-4' },
+  { name: 'Android', icon: FaAndroid, color: '#3DDC84', position: 'top-1/2 -left-4' },
   { name: 'React', icon: Layers, color: '#61DAFB', position: 'top-1/3 right-10' },
   { name: 'PHP', icon: Code2, color: '#777BB4', position: 'bottom-1/4 left-8' },
   { name: 'Python', icon: Bot, color: '#3776AB', position: 'bottom-10 right-4' },
@@ -151,7 +150,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
     skills: [
       { name: 'Git', icon: GitBranch, color: '#F05032' },
       { name: 'GitHub', icon: Github, color: '#FFFFFF' },
-      { name: 'Linux', icon: Linux, color: '#FCC624' },
+      { name: 'Linux', icon: FaLinux, color: '#FCC624' },
       { name: 'VS Code', icon: Code2, color: '#007ACC' },
       { name: 'Android Studio', icon: SiAndroidstudio, color: '#3DDC84' },
       { name: 'Figma', icon: Figma, color: '#F24E1E' },

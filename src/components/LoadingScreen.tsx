@@ -41,8 +41,12 @@ export default function LoadingScreen({ onComplete }: Props) {
           transition={{ duration: 0.6 }}
           className="flex flex-col items-center gap-2"
         >
-          <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-primary to-accent flex items-center justify-center shadow-2xl shadow-primary/30">
-            <span className="text-2xl font-bold text-white font-mono">Z</span>
+          <div className="w-16 h-16 rounded-2xl overflow-hidden shadow-2xl shadow-primary/30 ring-2 ring-primary/30">
+            <img
+              src="/profile.jpg"
+              alt="Zakaria El Irej"
+              className="w-full h-full object-cover object-top"
+            />
           </div>
           <span className="text-xl font-semibold tracking-widest text-muted font-mono uppercase">
             Zakaria
